@@ -6,7 +6,14 @@ set(
 
 project(ztest CXX)
 
+include(GNUInstallDirs)
+
 find_package(zwrap REQUIRED)
 
 add_executable(ztest ztest.cpp)
 target_link_libraries(ztest PRIVATE zwrap::zwrap)
+
+install(
+  TARGETS ztest
+  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+  )

@@ -25,3 +25,7 @@ install(
   PACKAGE_INFO zwrap
   EXPORT zwrap
   )
+
+if(CMAKE_VERSION VERSION_GREATER_EQUAL 4.1)
+  export(EXPORT zwrap PACKAGE_INFO zwrap)
+endif()
