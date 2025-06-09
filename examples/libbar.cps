@@ -1,12 +1,9 @@
 {
     "cps_version": "0.13.0",
-    "name": "libbar",
-    "description": "A shared library depending on libfoo",
+    "name": "libbar_or_any_name",
+    "description": "A shared library depending on libfoo.",
     "cps_path": "@prefix@/lib/cps/libbar",
     "license": "Apache-2.0",
-    "link_languages": [
-        "cpp"
-    ],
     "version": "2.1.0",
     "default_components": [
         "libbar"
@@ -18,14 +15,17 @@
             "includes": [
                 "@prefix@/include"
             ],
-            "requires": ["libfoo"],
+            "requires": ["libfoo:libfoo"],
             "link_flags": [],
             "compile_flags": [],
             "definitions": {
                 "*": {}
             },
             "link_libraries": [],
-            "link_location": []
+            "link_location": "",
+            "link_languages": [
+                "cpp"
+            ]
         }
     }
 }

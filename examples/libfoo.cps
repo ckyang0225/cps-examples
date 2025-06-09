@@ -1,12 +1,9 @@
 {
     "cps_version": "0.13.0",
-    "name": "libfoo",
-    "description": "A minimal static C library",
+    "name": "libfoo_or_any_name",
+    "description": "A minimal static C library.",
     "cps_path": "@prefix@/lib/cps/libfoo",
     "license": "MIT",
-    "link_languages": [
-        "c"
-    ],
     "version": "1.0.0",
     "default_components": [
         "libfoo"
@@ -25,7 +22,10 @@
                 "*": {}
             },
             "link_libraries": [],
-            "link_location": []
+            "link_location": "",
+            "link_languages": [
+                "c"
+            ]
         }
     }
 }
