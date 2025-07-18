@@ -5,6 +5,10 @@
     "cps_path": "@prefix@/lib/cps/libexample",
     "license": "MIT",
     "version": "1.0.0",
+    "requires": {
+        "libfoo_or_any_name": [],
+        "libbar_or_any_name": []
+    },
     "default_components": [
         "libexample"
     ],
