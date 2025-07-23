@@ -6,8 +6,10 @@
     "license": "MIT",
     "version": "1.0.0",
     "requires": {
-        "libfoo": [],
-        "libbar": []
+        "libfoo": {},
+        "libbar": }
+            "version": "1.0.0"
+        }
     },
     "default_components": [
         "libexample"

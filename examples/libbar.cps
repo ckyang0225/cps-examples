@@ -6,7 +6,9 @@
     "license": "Apache-2.0",
     "version": "2.1.0",
     "requires": {
-        "libfoo": []
+        "libfoo": {
+            "version": "1.0.0"
+        }
     }
     "default_components": [
         "libbar"

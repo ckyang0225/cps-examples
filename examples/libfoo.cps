@@ -5,9 +5,6 @@
     "cps_path": "@prefix@/lib/cps/libfoo",
     "license": "MIT",
     "version": "1.0.0",
-    "requires": {
-        "libbar": []
-    },
     "default_components": [
         "libfoo"
     ],
