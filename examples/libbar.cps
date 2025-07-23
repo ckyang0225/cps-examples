@@ -1,10 +1,13 @@
 {
     "cps_version": "0.13.0",
-    "name": "libbar_or_any_name",
+    "name": "libbar",
     "description": "A shared library depending on libfoo.",
     "cps_path": "@prefix@/lib/cps/libbar",
     "license": "Apache-2.0",
     "version": "2.1.0",
+    "requires": {
+        "libfoo": []
+    }
     "default_components": [
         "libbar"
     ],
@@ -22,7 +25,7 @@
                 "*": {}
             },
             "link_libraries": [],
-            "link_location": "",
+            "link_location": null,
             "link_languages": [
                 "cpp"
             ]
