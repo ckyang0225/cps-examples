@@ -9,7 +9,7 @@
         "libfoo": {
             "version": "1.0.0"
         }
-    }
+    },
     "default_components": [
         "libbar"
     ],

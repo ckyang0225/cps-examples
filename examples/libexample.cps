@@ -9,7 +9,7 @@
         "libfoo": {
             "version": "1.0.0"
         },
-        "libbar": }
+        "libbar": {
             "version": "2.1.0"
         }
     },
