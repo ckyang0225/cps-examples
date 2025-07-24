@@ -6,9 +6,11 @@
     "license": "MIT",
     "version": "1.0.0",
     "requires": {
-        "libfoo": {},
-        "libbar": }
+        "libfoo": {
             "version": "1.0.0"
+        },
+        "libbar": }
+            "version": "2.1.0"
         }
     },
     "default_components": [
